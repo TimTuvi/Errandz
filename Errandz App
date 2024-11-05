@@ -1,0 +1,299 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Errand Runner App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-gray-800">
+     Errand Runner
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Services
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto px-4 py-8">
+   <section class="mb-12">
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <h2 class="text-3xl font-bold mb-4">
+      Available Errands
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person shopping for groceries in a supermarket" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/BN7XdmMWGNL0GF9E3DIo5xYKVBq7UXb8tNR5qSGftewv8ebnA.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Grocery Shopping
+       </h3>
+       <p class="text-gray-600 mb-4">
+        Need someone to pick up your groceries? We've got you covered.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person picking up a prescription from a pharmacy" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/snhsssSQxSoHLttac91SHwSH4Jbn0Qb1Ua5i0aCQQsbNvf2JA.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Prescription Pickup
+       </h3>
+       <p class="text-gray-600 mb-4">
+        Get your medications picked up and delivered to your door.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person delivering a package to a house" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/7qTChZShGIreKaiE9FcLp9RYNpgYHlVIXE17C9LoUBNZeebnA.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Package Delivery
+       </h3>
+       <p class="text-gray-600 mb-4">
+        Need to send a package? We'll deliver it for you.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person walking a dog in a park" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/J06R1XOhfegpdkgc0i13e2GJVTSWUZIu27afJ0PxoqaOz73OB.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Dog Walking
+       </h3>
+       <p class="text-gray-600 mb-4">
+        Busy day? Let us take your furry friend for a walk.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person doing laundry" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/Hzzy9lw4qBaOFFunS4AOy9pQPRn5PX7JUe8YDIpMcgQYeebnA.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Laundry Service
+       </h3>
+       <p class="text-gray-600 mb-4">
+        We'll pick up, wash, and deliver your laundry.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <img alt="Person cleaning a house" class="w-full h-40 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/X7ldvpgwLVonDJgoNS8N5rOhgdw6d2eOEcPU2r9v3a9beebnA.jpg" width="300"/>
+       <h3 class="text-xl font-semibold mb-2">
+        House Cleaning
+       </h3>
+       <p class="text-gray-600 mb-4">
+        Professional cleaning services for your home.
+       </p>
+       <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Request Service
+       </button>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="mb-12">
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <h2 class="text-3xl font-bold mb-4">
+      How It Works
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="text-center">
+       <i class="fas fa-search text-4xl text-blue-500 mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        Find a Service
+       </h3>
+       <p class="text-gray-600">
+        Browse through our list of available errands and select the one you need.
+       </p>
+      </div>
+      <div class="text-center">
+       <i class="fas fa-calendar-check text-4xl text-blue-500 mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        Book a Time
+       </h3>
+       <p class="text-gray-600">
+        Choose a convenient time for the service to be completed.
+       </p>
+      </div>
+      <div class="text-center">
+       <i class="fas fa-smile text-4xl text-blue-500 mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        Enjoy Your Day
+       </h3>
+       <p class="text-gray-600">
+        Sit back and relax while we take care of your errands.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <h2 class="text-3xl font-bold mb-4">
+      Customer Reviews
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "The grocery shopping service was a lifesaver! Highly recommend."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          John Doe
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "Fast and reliable prescription pickup service. Will use again."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          Jane Smith
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "Great service for package delivery. Very convenient."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          Emily Johnson
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "My dog loves the dog walking service. Highly recommend."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          Michael Brown
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "Laundry service was quick and efficient. Clothes came back perfectly clean."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          Sarah Wilson
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gray-50 p-4 rounded-lg shadow">
+       <p class="text-gray-600 mb-4">
+        "House cleaning service was thorough and professional. Will use again."
+       </p>
+       <div class="flex items-center">
+        <img alt="Profile picture of a satisfied customer" class="w-12 h-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/KWERIVfszYVINSxlJolKdn138HF8Fmyc9xUe39dBJks28ebnA.jpg" width="50"/>
+        <div>
+         <h4 class="text-lg font-semibold">
+          David Lee
+         </h4>
+         <p class="text-gray-500">
+          Customer
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white shadow mt-12">
+   <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <p class="text-gray-600">
+     © 2023 Errand Runner. All rights reserved.
+    </p>
+    <div class="flex space-x-4">
+     <a class="text-gray-600 hover:text-gray-800" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-600 hover:text-gray-800" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-600 hover:text-gray-800" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
